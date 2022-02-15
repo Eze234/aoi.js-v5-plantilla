@@ -1,4 +1,4 @@
-const aoi = require('aoi.js')
+const aoi = require('aoi.js') //Definimos aoi
 
 const bot = new aoi.Bot({
   token: "token de tu bot", //Si usas replit quitale las comillas y pon process.env.token y crea un nuevo secret
@@ -18,7 +18,7 @@ bot.onInteractionCreate()
 const load = new aoi.LoadCommands(bot)
 
 load.load(bot.cmd, "./comandos/")
-//En caso de que uses replit pon esto 
+//En caso de que uses replit pon esto para el 24/7
 const express = require('express')
 const app = express();
 
